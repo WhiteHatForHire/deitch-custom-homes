@@ -19,7 +19,6 @@ $container   = get_theme_mod( 'understrap_container_type' );
 		
 
 			<main class="site-main" id="main">
-
 				<?php the_content(); ?>
 
 			</main><!-- #main -->
@@ -32,5 +31,11 @@ $container   = get_theme_mod( 'understrap_container_type' );
 </div><!-- Container end -->
 
 </div><!-- Wrapper end -->
+
+<!----------- Footer ------------>
+<!--<div class="container">-->
+	
+    
+<!--</div>-->
 
 <?php get_footer(); ?>
