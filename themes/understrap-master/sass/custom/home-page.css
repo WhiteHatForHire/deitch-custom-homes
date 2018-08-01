@@ -1,0 +1,23 @@
+.custom-logo-link img {
+  width: 200px !important; }
+
+@media screen and (max-width: 768px) {
+  .menu-item-21,
+  .menu-item-22,
+  .menu-item-23,
+  .menu-item-24 {
+    display: none !important; } }
+.menu-item-21 {
+  background-image: url("/wp-content/themes/understrap-master/img/veteran.png");
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  width: 147px;
+  height: 100px; }
+  .menu-item-21 a {
+    display: none; }
+
+#main-menu {
+  margin-right: 200px; }
+
+/*# sourceMappingURL=home-page.css.map */

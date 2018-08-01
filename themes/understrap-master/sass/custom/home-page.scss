@@ -1,0 +1,96 @@
+// ========= Navigation Styles ==========
+
+.custom-logo-link {
+    img {
+        width: 200px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu-item-21,
+    .menu-item-22,
+    .menu-item-23,
+    .menu-item-24 {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 1500px) {
+    .menu-item-21 {
+        right: 220px !important;
+    }
+    .menu-item-22 {
+        right: 130px !important;
+    }
+    .menu-item-23 {
+        right: 60px !important;
+    }
+    .menu-item-24 {
+        a {
+            font-size: 18px !important;
+        }
+        right: 0px !important;
+    }
+}
+
+.menu-item-21 {
+    background-image: url(/wp-content/themes/understrap-master/img/veteran.png);
+    background-size: contain;
+    position: absolute;
+    top: 46px;
+    right: 365px;
+    width: 90px;
+    background-repeat: no-repeat;
+    height: 60px;    a {
+        display: none;
+    }
+    // margin-bottom: 20px;
+}
+
+.menu-item-22 {
+    background-image: url(/wp-content/themes/understrap-master/img/troops.jpg);
+    background-size: contain;
+    position: absolute;
+    top: 46px;
+    right: 270px;
+    width: 90px;
+    background-repeat: no-repeat;
+    height: 60px;    a {
+        display: none;
+    }
+    // margin-bottom: 20px;
+}
+.menu-item-23 {
+
+    position: absolute;
+    top: 43px;
+    right: 201px;
+    width: 100px;
+    background-repeat: no-repeat;
+    height: 60px; 
+    a {
+        font-size: 20px !important;
+        color: black !important;
+        
+    }
+    // margin-bottom: 20px;
+}
+
+.menu-item-24 {
+    position: absolute;
+    top: 68px;
+    right: 120px;
+    width: 181px;
+    background-repeat: no-repeat;
+    height: 60px; 
+    a {
+        font-size: 24px;
+        color: black !important;
+        
+    }
+}
+
+#main-menu {
+    margin-right: 250px;
+}
+
+
